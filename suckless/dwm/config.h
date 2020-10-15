@@ -87,6 +87,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,						XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_v,      spawn,          SHCMD("~/.config/feh.sh") },
+	{ MODKEY,                       XK_o,      spawn,          SHCMD("~/.config/feh-black.sh") },
 	{ MODKEY,                       XK_r,      spawn,          {.v = roficmd} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
